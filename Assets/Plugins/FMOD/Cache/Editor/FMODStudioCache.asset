@@ -1,5 +1,180 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6018641597204997380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Whistling-wind
+  m_EditorClassIdentifier: 
+  Path: event:/Whistling-wind
+  Guid:
+    Data1: -909932885
+    Data2: 1120974899
+    Data3: -1549460065
+    Data4: -577753174
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58061
+--- !u!114 &-5654409213439453182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Butterfly_Market-Manhole-Poltergeist-3
+  m_EditorClassIdentifier: 
+  Path: event:/Butterfly_Market-Manhole-Poltergeist-3
+  Guid:
+    Data1: -1642686175
+    Data2: 1257805982
+    Data3: 953909182
+    Data4: -1365444648
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7100
+--- !u!114 &-3975111906649214043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Studio2_FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638761203680715517
+  FileSizes:
+  - Name: Desktop
+    Value: 1278
+  Exists: 1
+--- !u!114 &-3794126651039826064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GloomyAtmosphere
+  m_EditorClassIdentifier: 
+  Path: event:/GloomyAtmosphere
+  Guid:
+    Data1: -2021632046
+    Data2: 1164666594
+    Data3: 1734396345
+    Data4: 1980100147
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
+--- !u!114 &-3063401598671907106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Studio2_FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638761203680715517
+  FileSizes:
+  - Name: Desktop
+    Value: 4937088
+  Exists: 1
+--- !u!114 &-588905990684192386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Book_House-poltergeist-5
+  m_EditorClassIdentifier: 
+  Path: event:/Book_House-poltergeist-5
+  Guid:
+    Data1: -2079230827
+    Data2: 1225705599
+    Data3: -1944894576
+    Data4: 1751433268
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6200
+--- !u!114 &-391161613357172026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GrabPaper_Plastic
+  m_EditorClassIdentifier: 
+  Path: event:/GrabPaper_Plastic
+  Guid:
+    Data1: -1750668325
+    Data2: 1308962140
+    Data3: -1541481309
+    Data4: -354250404
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 614
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +187,159 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -3975111906649214043}
+  - {fileID: -3063401598671907106}
+  EditorEvents:
+  - {fileID: 1312340752129761428}
+  - {fileID: -5654409213439453182}
+  - {fileID: 8633983608979036492}
+  - {fileID: 4552265130358605198}
+  - {fileID: 4570728831511645621}
+  - {fileID: -588905990684192386}
+  - {fileID: -3794126651039826064}
+  - {fileID: -391161613357172026}
+  - {fileID: -6018641597204997380}
+  - {fileID: 5097769418046379159}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -3063401598671907106}
+  StringsBanks:
+  - {fileID: -3975111906649214043}
+  cacheTime: 638761203680715517
   cacheVersion: 131846
+--- !u!114 &1312340752129761428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CounrtysideAmbience SP1
+  m_EditorClassIdentifier: 
+  Path: event:/CounrtysideAmbience SP1
+  Guid:
+    Data1: -1307548137
+    Data2: 1291422538
+    Data3: 1748796321
+    Data4: 1004181544
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 144394
+--- !u!114 &4552265130358605198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WalkingGrass
+  m_EditorClassIdentifier: 
+  Path: event:/WalkingGrass
+  Guid:
+    Data1: -1940137092
+    Data2: 1250928307
+    Data3: 1615156153
+    Data4: -460959185
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &4570728831511645621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghost
+  m_EditorClassIdentifier: 
+  Path: event:/Ghost
+  Guid:
+    Data1: 1831798414
+    Data2: 1186574342
+    Data3: 701399169
+    Data4: 1215941395
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &5097769418046379159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wind_rustling_treeleaves
+  m_EditorClassIdentifier: 
+  Path: event:/Wind_rustling_treeleaves
+  Guid:
+    Data1: 776524973
+    Data2: 1122758129
+    Data3: -1361550441
+    Data4: -697419024
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 117333
+--- !u!114 &8633983608979036492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Coin_Stand_whisper-ghost
+  m_EditorClassIdentifier: 
+  Path: event:/Coin_Stand_whisper-ghost
+  Guid:
+    Data1: -881125790
+    Data2: 1284236340
+    Data3: -59104896
+    Data4: -751446675
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34855

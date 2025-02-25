@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{284dad02-c2d0-4110-95d2-df12faa0882d}">
+		<property name="assetPath">
+			<value>Book_House-poltergeist-5.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.561972789115647</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

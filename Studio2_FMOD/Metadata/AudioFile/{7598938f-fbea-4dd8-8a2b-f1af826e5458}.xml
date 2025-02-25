@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7598938f-fbea-4dd8-8a2b-f1af826e5458}">
+		<property name="assetPath">
+			<value>Coin_Stand_whisper-ghost.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>34.85594270833333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

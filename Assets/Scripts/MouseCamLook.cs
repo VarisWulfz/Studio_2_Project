@@ -36,6 +36,7 @@ public class MouseCamLook : MonoBehaviour
         Quaternion xRotation = Quaternion.AngleAxis(mouseLook.x, character.transform.up);
         transform.localRotation = initialRotation * yRotation;
         character.transform.localRotation = xRotation;
+
     }
 
     void Initialize()

@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8706639072829618695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RunningGrass
+  m_EditorClassIdentifier: 
+  Path: event:/RunningGrass
+  Guid:
+    Data1: 2089618875
+    Data2: 1257679823
+    Data3: 397969046
+    Data4: 35093398
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2483
 --- !u!114 &-6018641597204997380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +123,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638762985397697779
+  lastModified: 638764760705282246
   FileSizes:
   - Name: Desktop
-    Value: 1618
+    Value: 1560
   Exists: 1
 --- !u!114 &-3794126651039826064
 MonoBehaviour:
@@ -128,33 +155,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12500
---- !u!114 &-3440647734295756421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/WalkingOnAsphalt
-  m_EditorClassIdentifier: 
-  Path: event:/WalkingOnAsphalt
-  Guid:
-    Data1: -385928770
-    Data2: 1096540850
-    Data3: -1530182493
-    Data4: 1918992265
-  Banks:
-  - {fileID: -3063401598671907106}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 14968
 --- !u!114 &-3270567125112526703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,34 +197,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638762985397687784
+  lastModified: 638764760705271988
   FileSizes:
   - Name: Desktop
-    Value: 5346720
-  Exists: 1
---- !u!114 &-2830089027534278701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WalkingGrass/IsMoving
-  m_EditorClassIdentifier: 
-  Name: IsMoving
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2730402780
-    data2: 4258732111
-  Type: 1
-  IsGlobal: 0
-  Labels: []
+    Value: 5141216
   Exists: 1
 --- !u!114 &-588905990684192386
 MonoBehaviour:
@@ -306,18 +282,18 @@ MonoBehaviour:
   - {fileID: -391161613357172026}
   - {fileID: -6018641597204997380}
   - {fileID: 5097769418046379159}
-  - {fileID: -3440647734295756421}
   - {fileID: -4033411462798871689}
   - {fileID: -3270567125112526703}
   - {fileID: 1250081607634968797}
   - {fileID: 8437256009164611801}
   - {fileID: 5702565584434793707}
+  - {fileID: -8706639072829618695}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3063401598671907106}
   StringsBanks:
   - {fileID: -3975111906649214043}
-  cacheTime: 638762985397697779
+  cacheTime: 638764760705282246
   cacheVersion: 131846
 --- !u!114 &1250081607634968797
 MonoBehaviour:
@@ -396,11 +372,10 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: -2830089027534278701}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2483
+  Length: 4833
 --- !u!114 &4570728831511645621
 MonoBehaviour:
   m_ObjectHideFlags: 0

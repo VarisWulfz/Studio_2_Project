@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.5245282, g: 0.5245282, b: 0.5245282, a: 1}
+  m_AmbientSkyColor: {r: 0.335849, g: 0.335849, b: 0.335849, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -8889,10 +8889,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886040537233043605, guid: 04719670b69c76f44b8c6b8b289031ed, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2102931918}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04719670b69c76f44b8c6b8b289031ed, type: 3}
 --- !u!4 &405311797 stripped
 Transform:
@@ -11100,7 +11097,7 @@ Transform:
   m_GameObject: {fileID: 489686470}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 9.43, y: 75.46, z: 649.07}
+  m_LocalPosition: {x: 9.1, y: 77.4, z: 625.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32494,46 +32491,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5640277804862730379, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1584334988}
-    - targetCorrespondingSourceObject: {fileID: 5640277804862730379, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1584334987}
   m_SourcePrefab: {fileID: 100100000, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
 --- !u!4 &1584334983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4975802948403374641, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
   m_PrefabInstance: {fileID: 1584334982}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1584334987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434486297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -1910324927
-      Data2: 1213362697
-      Data3: -1810138748
-      Data4: 732955101
-    Path: event:/deer barking
-  Event: 
-  EventPlayTrigger: 3
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 10
 --- !u!135 &1584334988
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35479,7 +35442,7 @@ Transform:
   m_GameObject: {fileID: 1737622574}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 8.8, y: 87.7, z: 499.7}
+  m_LocalPosition: {x: 9.1, y: 76, z: 498.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37092,6 +37055,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 270170074015338890, guid: ce164a0849ede604c8fb1505f0d45f51, type: 3}
   m_PrefabInstance: {fileID: 1823712275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1824479260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1824479263}
+  - component: {fileID: 1824479262}
+  - component: {fileID: 1824479261}
+  m_Layer: 0
+  m_Name: Deer BarkingSoundEmit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1824479261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824479260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1910324927
+      Data2: 1213362697
+      Data3: -1810138748
+      Data4: 732955101
+    Path: event:/deer barking
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 60
+--- !u!135 &1824479262
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824479260}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 50
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1824479263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824479260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
+  m_LocalPosition: {x: 135.5, y: 84, z: 578.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 1.309, y: -89.261, z: -4.706}
 --- !u!1001 &1825222841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42576,42 +42624,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5174016897845417611, guid: ce2e1577661de1e4b87156b3208aff29, type: 3}
   m_PrefabInstance: {fileID: 2100434067}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2102931917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886040537233043605, guid: 04719670b69c76f44b8c6b8b289031ed, type: 3}
-  m_PrefabInstance: {fileID: 405311796}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2102931918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102931917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  EventPlayTrigger: 3
-  EventStopTrigger: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1 &2113295511
 GameObject:
   m_ObjectHideFlags: 0
@@ -43386,6 +43398,7 @@ SceneRoots:
   - {fileID: 185414027}
   - {fileID: 489686473}
   - {fileID: 1737622577}
+  - {fileID: 1824479263}
   - {fileID: 1852305345}
   - {fileID: 772517602}
   - {fileID: 293454834}

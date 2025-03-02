@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9193393348843665223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Altar_RitualSite
+  m_EditorClassIdentifier: 
+  Path: event:/Altar_RitualSite
+  Guid:
+    Data1: 596127581
+    Data2: 1251001841
+    Data3: 852371073
+    Data4: 1082598197
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15000
+--- !u!114 &-8812429061783330946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kitsune_Shrine-poltergeist-6
+  m_EditorClassIdentifier: 
+  Path: event:/Kitsune_Shrine-poltergeist-6
+  Guid:
+    Data1: 1811775824
+    Data2: 1256765623
+    Data3: 2047886249
+    Data4: -1968928189
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
 --- !u!114 &-8706639072829618695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +162,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7100
+--- !u!114 &-5324473997825786206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RitualSite_Entrance_kagome-kagome
+  m_EditorClassIdentifier: 
+  Path: event:/RitualSite_Entrance_kagome-kagome
+  Guid:
+    Data1: -193948126
+    Data2: 1175471010
+    Data3: -1804466756
+    Data4: 740811992
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36518
 --- !u!114 &-4892934978603839559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,10 +258,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638764818531476198
+  lastModified: 638765332403430158
   FileSizes:
   - Name: Desktop
-    Value: 1754
+    Value: 2126
   Exists: 1
 --- !u!114 &-3794126651039826064
 MonoBehaviour:
@@ -251,10 +332,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638764818531471107
+  lastModified: 638765332403420183
   FileSizes:
   - Name: Desktop
-    Value: 6910656
+    Value: 7913184
   Exists: 1
 --- !u!114 &-588905990684192386
 MonoBehaviour:
@@ -346,13 +427,73 @@ MonoBehaviour:
   - {fileID: -6461534473943352372}
   - {fileID: 2957612869197393608}
   - {fileID: -4892934978603839559}
+  - {fileID: 372825407454665365}
+  - {fileID: -8812429061783330946}
+  - {fileID: -9193393348843665223}
+  - {fileID: 680149224402679513}
+  - {fileID: 2229879594964801574}
+  - {fileID: -5324473997825786206}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3063401598671907106}
   StringsBanks:
   - {fileID: -3975111906649214043}
-  cacheTime: 638764818531476198
+  cacheTime: 638765332403430158
   cacheVersion: 131846
+--- !u!114 &372825407454665365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/japanese-ghost-demon-screaming
+  m_EditorClassIdentifier: 
+  Path: event:/japanese-ghost-demon-screaming
+  Guid:
+    Data1: -795697625
+    Data2: 1156756389
+    Data3: -1437871481
+    Data4: 80592097
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5340
+--- !u!114 &680149224402679513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Evil_Katana_demon-grumblewhisper
+  m_EditorClassIdentifier: 
+  Path: event:/Evil_Katana_demon-grumblewhisper
+  Guid:
+    Data1: -976370032
+    Data2: 1286633220
+    Data3: 1024628136
+    Data4: 92041501
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18905
 --- !u!114 &1250081607634968797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +548,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 144394
+--- !u!114 &2229879594964801574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/female-ghostly-breath-2-vol-001
+  m_EditorClassIdentifier: 
+  Path: event:/female-ghostly-breath-2-vol-001
+  Guid:
+    Data1: 394264014
+    Data2: 1166641495
+    Data3: -1787621244
+    Data4: -817184473
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
 --- !u!114 &2957612869197393608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,8 +786,8 @@ MonoBehaviour:
   - {fileID: -3063401598671907106}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 34855
+  Length: 32855

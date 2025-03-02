@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9e1a79af-4f9f-404d-a23e-fd158c21716b}">
+		<property name="assetPath">
+			<value>japanese-ghost-demon-screaming.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>40</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.3399999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

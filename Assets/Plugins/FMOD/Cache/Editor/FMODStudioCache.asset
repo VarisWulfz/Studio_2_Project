@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2483
+--- !u!114 &-6461534473943352372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/deer barking
+  m_EditorClassIdentifier: 
+  Path: event:/deer barking
+  Guid:
+    Data1: -1910324927
+    Data2: 1213362697
+    Data3: -1810138748
+    Data4: 732955101
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13000
 --- !u!114 &-6018641597204997380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,9 +91,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Butterfly_Market-Manhole-Poltergeist-3
+  m_Name: event:/butterfly_Market-Manhole-Poltergeist-3
   m_EditorClassIdentifier: 
-  Path: event:/Butterfly_Market-Manhole-Poltergeist-3
+  Path: event:/butterfly_Market-Manhole-Poltergeist-3
   Guid:
     Data1: -1642686175
     Data2: 1257805982
@@ -81,6 +108,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7100
+--- !u!114 &-4892934978603839559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/deer-callandresponse
+  m_EditorClassIdentifier: 
+  Path: event:/deer-callandresponse
+  Guid:
+    Data1: 1037130951
+    Data2: 1143590808
+    Data3: -2017325893
+    Data4: -879058315
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
 --- !u!114 &-4033411462798871689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,10 +177,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638764760705282246
+  lastModified: 638764818531476198
   FileSizes:
   - Name: Desktop
-    Value: 1560
+    Value: 1754
   Exists: 1
 --- !u!114 &-3794126651039826064
 MonoBehaviour:
@@ -165,9 +219,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Butterfly PickUp
+  m_Name: event:/butterfly PickUp
   m_EditorClassIdentifier: 
-  Path: event:/Butterfly PickUp
+  Path: event:/butterfly PickUp
   Guid:
     Data1: 431684065
     Data2: 1201853553
@@ -197,10 +251,10 @@ MonoBehaviour:
   Path: Studio2_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638764760705271988
+  lastModified: 638764818531471107
   FileSizes:
   - Name: Desktop
-    Value: 5141216
+    Value: 6910656
   Exists: 1
 --- !u!114 &-588905990684192386
 MonoBehaviour:
@@ -212,9 +266,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Book_House-poltergeist-5
+  m_Name: event:/book_House-poltergeist-5
   m_EditorClassIdentifier: 
-  Path: event:/Book_House-poltergeist-5
+  Path: event:/book_House-poltergeist-5
   Guid:
     Data1: -2079230827
     Data2: 1225705599
@@ -288,12 +342,16 @@ MonoBehaviour:
   - {fileID: 8437256009164611801}
   - {fileID: 5702565584434793707}
   - {fileID: -8706639072829618695}
+  - {fileID: 6281426692474681014}
+  - {fileID: -6461534473943352372}
+  - {fileID: 2957612869197393608}
+  - {fileID: -4892934978603839559}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3063401598671907106}
   StringsBanks:
   - {fileID: -3975111906649214043}
-  cacheTime: 638764760705282246
+  cacheTime: 638764818531476198
   cacheVersion: 131846
 --- !u!114 &1250081607634968797
 MonoBehaviour:
@@ -305,9 +363,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Book PickUp
+  m_Name: event:/book PickUp
   m_EditorClassIdentifier: 
-  Path: event:/Book PickUp
+  Path: event:/book PickUp
   Guid:
     Data1: -1317494485
     Data2: 1336148684
@@ -349,6 +407,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 144394
+--- !u!114 &2957612869197393608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LoudCicadas
+  m_EditorClassIdentifier: 
+  Path: event:/LoudCicadas
+  Guid:
+    Data1: 1931672653
+    Data2: 1204456842
+    Data3: 2022244795
+    Data4: 1912537088
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25000
 --- !u!114 &4552265130358605198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,6 +542,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 420
+--- !u!114 &6281426692474681014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bamboo_wind_chimes_1
+  m_EditorClassIdentifier: 
+  Path: event:/bamboo_wind_chimes_1
+  Guid:
+    Data1: 629582848
+    Data2: 1155194777
+    Data3: -128446029
+    Data4: -1504957148
+  Banks:
+  - {fileID: -3063401598671907106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64760
 --- !u!114 &8437256009164611801
 MonoBehaviour:
   m_ObjectHideFlags: 0

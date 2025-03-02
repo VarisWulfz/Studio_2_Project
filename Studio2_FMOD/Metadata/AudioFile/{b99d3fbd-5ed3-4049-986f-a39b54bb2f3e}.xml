@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b99d3fbd-5ed3-4049-986f-a39b54bb2f3e}">
+		<property name="assetPath">
+			<value>bamboo_wind_chimes_1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64.760041666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

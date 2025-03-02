@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.5245282, g: 0.5245282, b: 0.5245282, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -11021,6 +11021,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5509779321806247, guid: 6daecc626a960a24481b1d7ffe17ffa4, type: 3}
   m_PrefabInstance: {fileID: 489020297}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &489686470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489686473}
+  - component: {fileID: 489686472}
+  - component: {fileID: 489686471}
+  m_Layer: 0
+  m_Name: DeerSoundEmit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &489686471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489686470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1037130951
+      Data2: 1143590808
+      Data3: -2017325893
+      Data4: -879058315
+    Path: event:/deer-callandresponse
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 55
+--- !u!135 &489686472
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489686470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 60
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &489686473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489686470}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
+  m_LocalPosition: {x: 9.43, y: 75.46, z: 649.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 1.309, y: -89.261, z: -4.706}
 --- !u!1001 &490322849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16343,6 +16428,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5938699720613695920, guid: a68cf81010d555347a1911c5df7ab68c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2072089338}
+    - targetCorrespondingSourceObject: {fileID: 5938699720613695920, guid: a68cf81010d555347a1911c5df7ab68c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2072089342}
+    - targetCorrespondingSourceObject: {fileID: 5938699720613695920, guid: a68cf81010d555347a1911c5df7ab68c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2072089341}
   m_SourcePrefab: {fileID: 100100000, guid: a68cf81010d555347a1911c5df7ab68c, type: 3}
 --- !u!4 &734087820 stripped
 Transform:
@@ -22141,6 +22232,8 @@ GameObject:
   - component: {fileID: 1035157729}
   - component: {fileID: 1035157737}
   - component: {fileID: 1035157735}
+  - component: {fileID: 1035157738}
+  - component: {fileID: 1035157739}
   m_Layer: 0
   m_Name: PlayerMesh
   m_TagString: Player
@@ -22296,6 +22389,8 @@ MonoBehaviour:
   gravity: -9.81
   jumpHeight: 1.5
   cameraHolder: {fileID: 717352197}
+  moveSoundEmit: {fileID: 1035157738}
+  sprintSoundEmit: {fileID: 1035157739}
 --- !u!143 &1035157736
 CharacterController:
   m_ObjectHideFlags: 0
@@ -22335,6 +22430,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryUI: {fileID: 2036311869}
+--- !u!114 &1035157738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035157727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1940137092
+      Data2: 1250928307
+      Data3: 1615156153
+      Data4: -460959185
+    Path: event:/WalkingGrass
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1035157739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035157727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2089618875
+      Data2: 1257679823
+      Data3: 397969046
+      Data4: 35093398
+    Path: event:/RunningGrass
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1036545180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29612,6 +29769,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9cb398cae23e1214c9711245189dea00, type: 3}
   m_PrefabInstance: {fileID: 1425692256}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1434486297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5640277804862730379, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
+  m_PrefabInstance: {fileID: 1584334982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1435538132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31388,6 +31550,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1584334983}
   - {fileID: 481672624}
   - {fileID: 101565644}
   - {fileID: 610182050}
@@ -31540,7 +31703,6 @@ Transform:
   - {fileID: 80721604}
   - {fileID: 1742848770}
   - {fileID: 390021261}
-  - {fileID: 1584334983}
   - {fileID: 1592389988}
   - {fileID: 156674390}
   - {fileID: 990616825}
@@ -32328,13 +32490,71 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5640277804862730379, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584334988}
+    - targetCorrespondingSourceObject: {fileID: 5640277804862730379, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584334987}
   m_SourcePrefab: {fileID: 100100000, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
 --- !u!4 &1584334983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4975802948403374641, guid: 592c4b5eafd3824498993e2b53e3ce38, type: 3}
   m_PrefabInstance: {fileID: 1584334982}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584334987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434486297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -1910324927
+      Data2: 1213362697
+      Data3: -1810138748
+      Data4: 732955101
+    Path: event:/deer barking
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
+--- !u!135 &1584334988
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434486297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 20
+  m_Center: {x: -0.02682616, y: 4.2225976, z: 0}
 --- !u!1001 &1590071981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35180,6 +35400,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 270170074015338890, guid: ce164a0849ede604c8fb1505f0d45f51, type: 3}
   m_PrefabInstance: {fileID: 1735526806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1737622574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1737622577}
+  - component: {fileID: 1737622576}
+  - component: {fileID: 1737622575}
+  m_Layer: 0
+  m_Name: CicadaSoundEmit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1737622575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737622574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1931672653
+      Data2: 1204456842
+      Data3: 2022244795
+      Data4: 1912537088
+    Path: event:/LoudCicadas
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 55
+--- !u!135 &1737622576
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737622574}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 60
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1737622577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737622574}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
+  m_LocalPosition: {x: 8.8, y: 87.7, z: 499.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 1.309, y: -89.261, z: -4.706}
 --- !u!1001 &1742848769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41534,6 +41839,58 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -683792204584130819, guid: e79582acbcf95a04f8369781f2e34a33, type: 3}
+--- !u!114 &2072089341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072089335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 629582848
+      Data2: 1155194777
+      Data3: -128446029
+      Data4: -1504957148
+    Path: event:/bamboo_wind_chimes_1
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 25
+--- !u!135 &2072089342
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072089335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 30
+  m_Center: {x: -0.000061035156, y: 6.25, z: 1.8377807}
 --- !u!4 &2073980212 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1137601796748119434, guid: 1ada2ec9bb93e2a47b3058b9e83915e8, type: 3}
@@ -43027,6 +43384,8 @@ SceneRoots:
   - {fileID: 1401483913}
   - {fileID: 607458949}
   - {fileID: 185414027}
+  - {fileID: 489686473}
+  - {fileID: 1737622577}
   - {fileID: 1852305345}
   - {fileID: 772517602}
   - {fileID: 293454834}

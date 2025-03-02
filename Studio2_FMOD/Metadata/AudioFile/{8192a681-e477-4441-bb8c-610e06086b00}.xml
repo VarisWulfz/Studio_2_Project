@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8192a681-e477-4441-bb8c-610e06086b00}">
+		<property name="assetPath">
+			<value>Loud_Cicadas.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>39.658666666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

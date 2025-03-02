@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{334dd125-7ed7-40eb-85d0-f3baa9004254}">
+		<property name="assetPath">
+			<value>deer-callandresponse.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>27.63821875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{826128b8-97fc-4701-811b-44d4c22a72da}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.335849, g: 0.335849, b: 0.335849, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -37085,7 +37085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
+  CollisionTag: Player
   EventReference:
     Guid:
       Data1: -1910324927
@@ -37094,7 +37094,7 @@ MonoBehaviour:
       Data4: 732955101
     Path: event:/deer barking
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 3
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -37103,7 +37103,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 60
+  OverrideMaxDistance: 30
 --- !u!135 &1824479262
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37123,7 +37123,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 50
+  m_Radius: 30
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1824479263
 Transform:
@@ -37134,7 +37134,7 @@ Transform:
   m_GameObject: {fileID: 1824479260}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 135.5, y: 84, z: 578.4}
+  m_LocalPosition: {x: 118, y: 77.3, z: 554.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

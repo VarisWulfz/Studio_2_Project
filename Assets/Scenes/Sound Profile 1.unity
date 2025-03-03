@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.02745098, g: 0.02745098, b: 0.02745098, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -9844,35 +9844,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.7979
+      value: 63.459534
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.4423523
+      value: -5.480175
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.340149
+      value: 21.29999
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7092848
+      value: 0.7092832
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0019469769
+      value: 0.0024769783
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70491666
+      value: 0.7049149
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0019590415
+      value: -0.0024857796
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.316
+      value: 0.402
       objectReference: {fileID: 0}
     - target: {fileID: 573454694719401290, guid: 30c5516d71b514b488f6d81df4787fdc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -11220,7 +11220,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 55
+  OverrideMaxDistance: 70
 --- !u!135 &489686472
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11251,7 +11251,7 @@ Transform:
   m_GameObject: {fileID: 489686470}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 9.1, y: 77.4, z: 625.8}
+  m_LocalPosition: {x: 23, y: 77.8, z: 624.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20494,7 +20494,7 @@ Transform:
   m_GameObject: {fileID: 933626155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35565,7 +35565,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 55
+  OverrideMaxDistance: 70
 --- !u!135 &1737622576
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35596,7 +35596,7 @@ Transform:
   m_GameObject: {fileID: 1737622574}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 9.1, y: 76, z: 498.8}
+  m_LocalPosition: {x: 17.6, y: 75.1, z: 512.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37257,7 +37257,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 60
 --- !u!135 &1824479262
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37277,7 +37277,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 30
+  m_Radius: 50
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1824479263
 Transform:
@@ -37288,7 +37288,7 @@ Transform:
   m_GameObject: {fileID: 1824479260}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03696173, y: -0.70155805, z: -0.021198234, w: 0.7113374}
-  m_LocalPosition: {x: 118, y: 77.3, z: 554.7}
+  m_LocalPosition: {x: 132.1, y: 76.4, z: 569.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

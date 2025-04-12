@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using FMOD.Studio;
 using FMODUnity;
+using UnityEngine;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class PlayerMovement : MonoBehaviour
 {
     public EventReference footstepEvent; // Assign the FMOD Event path in the Inspector
     // Use EventReference instead of [EventRef]
 
-    private FMOD.Studio.EventInstance footstepEventInstance;
+    private EventInstance footstepEventInstance;
 
-    private bool isMoving = false;
+    private bool isMoving;
     private Vector3 lastPosition;
 
     private void Start()
@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnDestroy()
     {
         // Stop and release the event when the GameObject is destroyed
-        footstepEventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        footstepEventInstance.stop(STOP_MODE.IMMEDIATE);
         footstepEventInstance.release();
     }
 }

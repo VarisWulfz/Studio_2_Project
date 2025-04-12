@@ -10,11 +10,11 @@ public class MouseCamLook : MonoBehaviour
     private Vector2 smoothV;
     private Quaternion initialRotation;
 
-    private bool isInitialized = false;
+    private bool isInitialized;
 
     void Start()
     {
-        character = this.transform.parent.gameObject;
+        character = transform.parent.gameObject;
     }
 
     void Update()

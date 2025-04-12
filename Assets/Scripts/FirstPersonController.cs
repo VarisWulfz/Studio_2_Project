@@ -1,6 +1,4 @@
 using FMODUnity;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
@@ -13,15 +11,15 @@ public class FirstPersonController : MonoBehaviour
     public Transform cameraHolder;
 
     private CharacterController characterController;
-    private float verticalRotation = 0f;
+    private float verticalRotation;
     private Vector3 velocity;
     private bool isGrounded;
     private bool isMoving = false;
     private Vector3 lastPosition;
-    private bool isSprinting = false; // Track if the player is sprinting
+    private bool isSprinting; // Track if the player is sprinting
 
-    public FMODUnity.StudioEventEmitter moveSoundEmit; // Footstep emitter
-    public FMODUnity.StudioEventEmitter sprintSoundEmit; // Sprint sound emitter
+    public StudioEventEmitter moveSoundEmit; // Footstep emitter
+    public StudioEventEmitter sprintSoundEmit; // Sprint sound emitter
 
     void Start()
     {
